@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+}
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* header */
+header {
+    background-color: #fcdb00;
+    padding: 10px 0;
+}
+
+.menu ui li {
+    padding: 0 20px;
+}
+
+.menu ul li a {
+    font-weight: 700;
+    font-size: 22px;
+    color: #010101 !important;
+    padding: 0 40px;
+}
+
+/* end of header */
+
+/* slider */
+
+.slider {
+    background-color: #fcdb00;
+    padding: 40px 0 80px 0;
+}
+
+.inspire {
+    margin-top: 80px;
+    color: #010101;
+
+}
+
+.inspire h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+
+}
+
+.inspire h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.inspire ul li i {
+    font-size: 40px;
+    padding: 0 10px;
+}
+
+.caind {
+    bottom: -70px;
+}
+
+.caind li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #feed80;
+    transition: 0, 4s;
+}
+
+.caind li:hover {
+    background-color: #010101;
+}
+
+.caind .active {
+    background-color: #010101;
+}
+
+
+/* end of slider */
+
+/* features */
+.features {
+    padding: 80px 0;
+}
+
+.title h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.title p {
+    font-size: 20px;
+}
+
+.icon i {
+    font-size: 50px;
+    color: #010101;
+}
+
+.icon-content h1 {
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+/* end of features */
+
+/* contact */
+
+.contact {
+    padding: 80px 0;
+    background-color: #000000;
+}
+
+.input-custome {
+    padding: 23px 25px;
+    color: #898989;
+    font-weight: 600;
+}
+
+.btn-custome {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #010101;
+    background-color: #fcdb00;
+}
+
+.social ul li i {
+    font-size: 45px;
+    color: #fcdb00;
+}
+
+
+
+
+/* end of contact */
+
+/* footer */
+.footer {
+    padding: 80px 0;
+    background-color: #010101;
+    color: whitesmoke !important;
+}
+
+.menu-footer ul li {
+    list-style: none;
+}
+
+.menu-footer ul li a {
+    color: white !important;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s
+}
+
+.menu-footer ul li a:hover {
+    color: #fcdb00 !important;
+}
+
+
+
+/* end of footer  */
